@@ -29,7 +29,7 @@ function AsidePanelChats(props) {
             })
             );
         }
-    },[searchValue])
+    },[searchValue,props.chats])
     
     return(
         <div className={`${hideAsideBlock ? 'hide' : ''} aside-panel`}>
