@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.main-container{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  height: 100vh;
+  overflow: hidden;
+}

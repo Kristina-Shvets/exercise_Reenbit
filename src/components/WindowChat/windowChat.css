@@ -1,0 +1,92 @@
+.my__message-header{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: rgb(225, 225, 225);
+    
+
+}
+.my__message-header img{
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.header-user-avatar h2{
+    font-size: 1.3rem;
+    font-weight:500;
+    color: #717171;
+    padding-top: 12px; 
+}
+.my-messages{
+    border-width: 0px 0px 0px 3px;
+    border-color: rgb(225, 225, 225);
+    border-style: solid;
+    overflow-y: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100vh;
+}
+
+.messages-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+.header-user-avatar{
+  display: flex;
+  margin: 15px;  
+}
+
+.chatBoxBottom{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.chatBoxBottom__background{
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    padding: 20px 40px 20px 15px;
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: rgb(225, 225, 225);  
+}
+.chatBoxBottom .chatMessageInput{
+    width: 100%;
+    padding: 16px 2px 12px 18px;
+    border-radius: 28px;
+    border-style: solid;
+    border-color: rgb(168, 168, 168);  
+    border-width: 1px;
+}
+.chatMessageInput{
+    position: relative;
+}
+.chatSubmitButton{
+    top: 28px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 31px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.chatSubmitButton svg{
+    width: 100%;
+    height: 100%;
+}
+.chatSubmitButton:hover svg{
+    fill: #39009b;
+    
+}
